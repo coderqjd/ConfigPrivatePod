@@ -15,5 +15,5 @@ git add .
 git commit -m ${version}
 git tag ${version}
 git push origin master --tags
-pod repo push qjd-specs __ProjectName__.podspec --verbose --allow-warnings --use-libraries --use-modular-headers
+pod repo push CTSpec __ProjectName__.podspec --verbose --allow-warnings --use-libraries --use-modular-headers --sources='http://172.19.3.125/changTuiOS/CTSpec.git,https://github.com/CocoaPods/Specs.git'
 
