@@ -20,9 +20,9 @@ Pod::Spec.new do |s|
 
   s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
-  s.author             = { "CasaTaloyum" => "qiangjindong@163.com" }
-
+  s.author             = { "QJD" => "qiangjindong@163.com" }
   s.platform     = :ios, "8.0"
+
 
   s.source       = { :git => "__HTTPSRepo__", :tag => s.version.to_s }
 
